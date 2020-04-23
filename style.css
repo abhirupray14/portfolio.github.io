@@ -1,0 +1,173 @@
+h1 {
+  color: black;
+  text-align : center;
+  font-family : arial;
+  font-size: 200%;
+  text-shadow: 2px 2px;
+
+}
+p
+{
+  color:black;
+  text-align: center;
+  font-family : arial;
+  font-size : 25px;
+}
+body{
+  background-color: rgb(210, 214, 211);
+}
+
+/*img{
+  border-radius: 50%;
+
+}*/
+.avatar {
+  vertical-align: middle;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ /*width: 50%;*/
+ border:10px solid rgb(199, 214, 237);
+ box-shadow: 1px 1px 2px black, 0 0 25px #000000, 0 0 5px #000000;
+}
+.About_Me{
+
+  padding : 15%;
+  font-size: 100%;
+  /*background-color: rgb(0, 3, 8);
+  font-color:rgb(245, 246, 247);*/
+  font-color:rgb(0,3,8);
+  text-align: left;
+  /*style=" height: 50rem;"*/
+
+}
+div.card {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.skills {
+    background: #E8E8E8;
+    text-align: center;
+}
+.skills hr {
+    margin: auto;
+    width: 55%;
+    border: 0.5px solid #2B2B2B;
+}
+
+.skills h1 {
+    margin: 2rem 0;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right, #0C97FA, #16E1F5);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.skills p {
+    text-align: center;
+    margin: 5rem auto;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #2B2B2B;
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.skills .card {
+    text-align: center;
+    font-size: 5em;
+    margin: 2%;
+    background: none;
+    border: none;
+}
+
+.skills .python-icon .icon {
+    margin: auto;
+    border-radius: 10rem;
+    border: none;
+    width: 8rem;
+    height: 8rem;
+    background-image: url(https://www.python.org/static/community_logos/python-logo-master-v3-TM.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.skills .c-icon .icon {
+    margin: auto;
+    border-radius: 10rem;
+    border: none;
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFF;
+    background-image: url(https://img.icons8.com/color/480/c-programming.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.skills .C++-icon .icon {
+    margin: auto;
+    border-radius: 10rem;
+    border: none;
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFF;
+    background-image: url(https://i.pinimg.com/originals/d2/e7/a1/d2e7a1cb268d0354d89af6304ceb8bfb.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.skills .django-icon {
+    margin: 1% auto;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.75);
+}
+.contact {
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+    position: relative;
+}
+
+.contact .card .card-header {
+    background-color: #E8E8E8;
+    color: #2B2B2B;
+    border: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.contact .card .card-body {
+    border: none;
+    margin: 10rem 0 4rem 0;
+    font-weight: 400;
+}
+
+.contact .card-body .avatar {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: -10rem;
+    border-radius: 10rem;
+    border: 0.2rem solid #2B2B2B;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+    width: 6rem;
+    height: 6rem;
+    background-image: url(https://scontent.fccu17-1.fna.fbcdn.net/v/t1.0-1/p160x160/86280482_1233428373513926_1309543560139243520_n.jpg?_nc_cat=110&_nc_sid=dbb9e7&_nc_ohc=pgWipoUb5bAAX-qlri5&_nc_ht=scontent.fccu17-1.fna&_nc_tp=6&oh=41d167d9db7e3a02e62aecc586b9c0f3&oe=5EC86627);
+    background-size: cover;
+    z-index: 1;
+}
